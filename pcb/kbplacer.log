@@ -1,0 +1,1361 @@
+[kbplacer_plugin_action.py:79]: Plugin executed with KiCad version: 7.0.9
+[kbplacer_plugin_action.py:80]: Plugin executed with python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+[kbplacer_dialog.py:512]: Language: en
+[kbplacer_plugin_action.py:96]: GUI state: {"switch_section": {"annotation": "MX{}", "layout_path": "", "x_distance": "19.05", "y_distance": "19.05"}, "switch_diodes_section": {"enable": true, "route_switches_with_diodes": true, "element_info": {"annotation_format": "D{}", "position_option": "Relative", "position": null, "template_path": ""}}, "additional_elements": {"elements_info": [{"annotation_format": "LED{}", "position_option": "Relative", "position": null, "template_path": ""}]}, "misc_section": {"route_rows_and_columns": false, "template_path": ""}}
+[key_placer.py:66]: Set key 1U distance: 19050000/19050000
+[key_placer.py:451]: Diode info: ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=None, template_path='')
+[board_modifier.py:64]: Searching for MX1 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:64]: Searching for D1 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:97]: Getting MX1 footprint position: (44050000, 39287500)
+[key_placer.py:300]: Got connection template: 
+[board_modifier.py:64]: Searching for MX1 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:64]: Searching for D1 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:97]: Getting MX1 footprint position: (44050000, 39287500)
+[board_modifier.py:97]: Getting D1 footprint position: (52387500, 46400000)
+[key_placer.py:490]: Element info updated: ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(relative_position=Point(x=8.3375, y=7.1125), orientation=90.0, side=<Side.BACK: True>), template_path='')
+[board_modifier.py:64]: Searching for MX1 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:64]: Searching for LED1 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:97]: Getting MX1 footprint position: (44050000, 39287500)
+[board_modifier.py:97]: Getting LED1 footprint position: (44050000, 44367500)
+[key_placer.py:490]: Element info updated: ElementInfo(annotation_format='LED{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(relative_position=Point(x=0.0, y=5.08), orientation=180.0, side=<Side.BACK: True>), template_path='')
+[board_modifier.py:97]: Getting MX1 footprint position: (44050000, 39287500)
+[board_modifier.py:64]: Searching for D1 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D1 footprint position: (52387500, 46400000)
+[board_modifier.py:64]: Searching for LED1 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED1 footprint position: (44050000, 44367500)
+[board_modifier.py:97]: Getting MX2 footprint position: (82150000, 39287500)
+[board_modifier.py:64]: Searching for D2 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D2 footprint position: (90487500, 46400000)
+[board_modifier.py:64]: Searching for LED2 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED2 footprint position: (82150000, 44367500)
+[board_modifier.py:97]: Getting MX3 footprint position: (101200000, 39287500)
+[board_modifier.py:64]: Searching for D3 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D3 footprint position: (109537500, 46400000)
+[board_modifier.py:64]: Searching for LED3 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED3 footprint position: (101200000, 44367500)
+[board_modifier.py:97]: Getting MX4 footprint position: (122225287, 41869081)
+[board_modifier.py:64]: Searching for D4 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D4 footprint position: (128594458, 50787333)
+[board_modifier.py:97]: Getting D4 footprint position: (128594458, 50787333)
+[board_modifier.py:64]: Searching for LED4 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED4 footprint position: (120996324, 46798183)
+[board_modifier.py:97]: Getting LED4 footprint position: (120996324, 46798183)
+[board_modifier.py:97]: Getting MX5 footprint position: (141262454, 44259597)
+[board_modifier.py:64]: Searching for D5 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D5 footprint position: (147631625, 53177849)
+[board_modifier.py:97]: Getting D5 footprint position: (147631625, 53177849)
+[board_modifier.py:64]: Searching for LED5 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED5 footprint position: (140033491, 49188699)
+[board_modifier.py:97]: Getting LED5 footprint position: (140033491, 49188699)
+[board_modifier.py:97]: Getting MX6 footprint position: (159193554, 51086305)
+[board_modifier.py:64]: Searching for D6 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D6 footprint position: (165562725, 60004557)
+[board_modifier.py:97]: Getting D6 footprint position: (165562725, 60004557)
+[board_modifier.py:64]: Searching for LED6 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED6 footprint position: (157964591, 56015407)
+[board_modifier.py:97]: Getting LED6 footprint position: (157964591, 56015407)
+[board_modifier.py:97]: Getting MX7 footprint position: (177078568, 58097854)
+[board_modifier.py:64]: Searching for D7 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D7 footprint position: (183447739, 67016106)
+[board_modifier.py:97]: Getting D7 footprint position: (183447739, 67016106)
+[board_modifier.py:64]: Searching for LED7 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED7 footprint position: (175849605, 63026956)
+[board_modifier.py:97]: Getting LED7 footprint position: (175849605, 63026956)
+[board_modifier.py:97]: Getting MX8 footprint position: (39287500, 58337500)
+[board_modifier.py:64]: Searching for D8 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D8 footprint position: (47625000, 65450000)
+[board_modifier.py:64]: Searching for LED8 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED8 footprint position: (39287500, 63417500)
+[board_modifier.py:97]: Getting MX9 footprint position: (72625000, 58337500)
+[board_modifier.py:64]: Searching for D9 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D9 footprint position: (80962500, 65450000)
+[board_modifier.py:64]: Searching for LED9 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED9 footprint position: (72625000, 63417500)
+[board_modifier.py:97]: Getting MX10 footprint position: (96437500, 58337500)
+[board_modifier.py:64]: Searching for D10 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D10 footprint position: (104775000, 65450000)
+[board_modifier.py:64]: Searching for LED10 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED10 footprint position: (96437500, 63417500)
+[board_modifier.py:97]: Getting MX11 footprint position: (117616675, 60353214)
+[board_modifier.py:64]: Searching for D11 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D11 footprint position: (123985846, 69271466)
+[board_modifier.py:97]: Getting D11 footprint position: (123985846, 69271466)
+[board_modifier.py:64]: Searching for LED11 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED11 footprint position: (116387712, 65282316)
+[board_modifier.py:97]: Getting LED11 footprint position: (116387712, 65282316)
+[board_modifier.py:97]: Getting MX12 footprint position: (136653842, 62743729)
+[board_modifier.py:64]: Searching for D12 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D12 footprint position: (143023013, 71661981)
+[board_modifier.py:97]: Getting D12 footprint position: (143023013, 71661981)
+[board_modifier.py:64]: Searching for LED12 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED12 footprint position: (135424879, 67672831)
+[board_modifier.py:97]: Getting LED12 footprint position: (135424879, 67672831)
+[board_modifier.py:97]: Getting MX13 footprint position: (154584942, 69570438)
+[board_modifier.py:64]: Searching for D13 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D13 footprint position: (160954113, 78488690)
+[board_modifier.py:97]: Getting D13 footprint position: (160954113, 78488690)
+[board_modifier.py:64]: Searching for LED13 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED13 footprint position: (153355979, 74499540)
+[board_modifier.py:97]: Getting LED13 footprint position: (153355979, 74499540)
+[board_modifier.py:97]: Getting MX14 footprint position: (172469956, 76581988)
+[board_modifier.py:64]: Searching for D14 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D14 footprint position: (178839127, 85500240)
+[board_modifier.py:97]: Getting D14 footprint position: (178839127, 85500240)
+[board_modifier.py:64]: Searching for LED14 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED14 footprint position: (171240993, 81511090)
+[board_modifier.py:97]: Getting LED14 footprint position: (171240993, 81511090)
+[board_modifier.py:97]: Getting MX15 footprint position: (34525000, 77387500)
+[board_modifier.py:64]: Searching for D15 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D15 footprint position: (42862500, 84500000)
+[board_modifier.py:64]: Searching for LED15 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED15 footprint position: (34525000, 82467500)
+[board_modifier.py:97]: Getting MX16 footprint position: (65481250, 77387500)
+[board_modifier.py:64]: Searching for D16 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D16 footprint position: (73818750, 84500000)
+[board_modifier.py:64]: Searching for LED16 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED16 footprint position: (65481250, 82467500)
+[board_modifier.py:97]: Getting MX17 footprint position: (91675000, 77387500)
+[board_modifier.py:64]: Searching for D17 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D17 footprint position: (100012500, 84500000)
+[board_modifier.py:64]: Searching for LED17 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED17 footprint position: (91675000, 82467500)
+[board_modifier.py:97]: Getting MX18 footprint position: (113008063, 78837348)
+[board_modifier.py:64]: Searching for D18 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D18 footprint position: (119377234, 87755600)
+[board_modifier.py:97]: Getting D18 footprint position: (119377234, 87755600)
+[board_modifier.py:64]: Searching for LED18 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED18 footprint position: (111779100, 83766450)
+[board_modifier.py:97]: Getting LED18 footprint position: (111779100, 83766450)
+[board_modifier.py:97]: Getting MX19 footprint position: (132045230, 81227864)
+[board_modifier.py:64]: Searching for D19 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D19 footprint position: (138414401, 90146116)
+[board_modifier.py:97]: Getting D19 footprint position: (138414401, 90146116)
+[board_modifier.py:64]: Searching for LED19 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED19 footprint position: (130816267, 86156966)
+[board_modifier.py:97]: Getting LED19 footprint position: (130816267, 86156966)
+[board_modifier.py:97]: Getting MX20 footprint position: (149976330, 88054572)
+[board_modifier.py:64]: Searching for D20 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D20 footprint position: (156345501, 96972824)
+[board_modifier.py:97]: Getting D20 footprint position: (156345501, 96972824)
+[board_modifier.py:64]: Searching for LED20 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED20 footprint position: (148747367, 92983674)
+[board_modifier.py:97]: Getting LED20 footprint position: (148747367, 92983674)
+[board_modifier.py:97]: Getting MX21 footprint position: (167861344, 95066121)
+[board_modifier.py:64]: Searching for D21 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D21 footprint position: (174230515, 103984373)
+[board_modifier.py:97]: Getting D21 footprint position: (174230515, 103984373)
+[board_modifier.py:64]: Searching for LED21 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED21 footprint position: (166632381, 99995223)
+[board_modifier.py:97]: Getting LED21 footprint position: (166632381, 99995223)
+[board_modifier.py:97]: Getting MX22 footprint position: (58337500, 96437500)
+[board_modifier.py:64]: Searching for D22 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D22 footprint position: (66675000, 103550000)
+[board_modifier.py:64]: Searching for LED22 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED22 footprint position: (58337500, 101517500)
+[board_modifier.py:97]: Getting MX23 footprint position: (86912500, 96437500)
+[board_modifier.py:64]: Searching for D23 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D23 footprint position: (95250000, 103550000)
+[board_modifier.py:64]: Searching for LED23 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED23 footprint position: (86912500, 101517500)
+[board_modifier.py:97]: Getting MX24 footprint position: (108399450, 97321481)
+[board_modifier.py:64]: Searching for D24 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D24 footprint position: (114768621, 106239733)
+[board_modifier.py:97]: Getting D24 footprint position: (114768621, 106239733)
+[board_modifier.py:64]: Searching for LED24 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED24 footprint position: (107170487, 102250583)
+[board_modifier.py:97]: Getting LED24 footprint position: (107170487, 102250583)
+[board_modifier.py:97]: Getting MX25 footprint position: (127436617, 99711997)
+[board_modifier.py:64]: Searching for D25 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D25 footprint position: (133805788, 108630249)
+[board_modifier.py:97]: Getting D25 footprint position: (133805788, 108630249)
+[board_modifier.py:64]: Searching for LED25 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED25 footprint position: (126207654, 104641099)
+[board_modifier.py:97]: Getting LED25 footprint position: (126207654, 104641099)
+[board_modifier.py:97]: Getting MX26 footprint position: (145367718, 106538706)
+[board_modifier.py:64]: Searching for D26 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D26 footprint position: (151736889, 115456958)
+[board_modifier.py:97]: Getting D26 footprint position: (151736889, 115456958)
+[board_modifier.py:64]: Searching for LED26 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED26 footprint position: (144138755, 111467808)
+[board_modifier.py:97]: Getting LED26 footprint position: (144138755, 111467808)
+[board_modifier.py:97]: Getting MX27 footprint position: (163252732, 113550255)
+[board_modifier.py:64]: Searching for D27 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D27 footprint position: (169621903, 122468507)
+[board_modifier.py:97]: Getting D27 footprint position: (169621903, 122468507)
+[board_modifier.py:64]: Searching for LED27 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED27 footprint position: (162023769, 118479357)
+[board_modifier.py:97]: Getting LED27 footprint position: (162023769, 118479357)
+[board_modifier.py:97]: Getting MX28 footprint position: (60718750, 115487500)
+[board_modifier.py:64]: Searching for D28 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D28 footprint position: (69056250, 122600000)
+[board_modifier.py:64]: Searching for LED28 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED28 footprint position: (60718750, 120567500)
+[board_modifier.py:97]: Getting MX29 footprint position: (115343422, 118685998)
+[board_modifier.py:64]: Searching for D29 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D29 footprint position: (121712593, 127604250)
+[board_modifier.py:97]: Getting D29 footprint position: (121712593, 127604250)
+[board_modifier.py:64]: Searching for LED29 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED29 footprint position: (114114459, 123615100)
+[board_modifier.py:97]: Getting LED29 footprint position: (114114459, 123615100)
+[board_modifier.py:97]: Getting MX30 footprint position: (138448589, 124446763)
+[board_modifier.py:64]: Searching for D30 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D30 footprint position: (144817760, 133365015)
+[board_modifier.py:97]: Getting D30 footprint position: (144817760, 133365015)
+[board_modifier.py:64]: Searching for LED30 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED30 footprint position: (137219626, 129375865)
+[board_modifier.py:97]: Getting LED30 footprint position: (137219626, 129375865)
+[board_modifier.py:97]: Getting MX31 footprint position: (167886186, 134338695)
+[board_modifier.py:64]: Searching for D31 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D31 footprint position: (174255357, 143256947)
+[board_modifier.py:97]: Getting D31 footprint position: (174255357, 143256947)
+[board_modifier.py:64]: Searching for LED31 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED31 footprint position: (166657223, 139267797)
+[board_modifier.py:97]: Getting LED31 footprint position: (166657223, 139267797)
+[board_modifier.py:97]: Getting MX32 footprint position: (181736865, 118158867)
+[board_modifier.py:64]: Searching for D32 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D32 footprint position: (188106036, 127077119)
+[board_modifier.py:97]: Getting D32 footprint position: (188106036, 127077119)
+[board_modifier.py:64]: Searching for LED32 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED32 footprint position: (180507902, 123087969)
+[board_modifier.py:97]: Getting LED32 footprint position: (180507902, 123087969)
+[board_modifier.py:97]: Getting MX33 footprint position: (220537846, 58103513)
+[board_modifier.py:64]: Searching for D33 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D33 footprint position: (230348356, 62987717)
+[board_modifier.py:97]: Getting D33 footprint position: (230348356, 62987717)
+[board_modifier.py:64]: Searching for LED33 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED33 footprint position: (221766809, 63032615)
+[board_modifier.py:97]: Getting LED33 footprint position: (221766809, 63032615)
+[board_modifier.py:97]: Getting MX34 footprint position: (238422860, 51091963)
+[board_modifier.py:64]: Searching for D34 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D34 footprint position: (248233370, 55976167)
+[board_modifier.py:97]: Getting D34 footprint position: (248233370, 55976167)
+[board_modifier.py:64]: Searching for LED34 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED34 footprint position: (239651823, 56021065)
+[board_modifier.py:97]: Getting LED34 footprint position: (239651823, 56021065)
+[board_modifier.py:97]: Getting MX35 footprint position: (256353960, 44265255)
+[board_modifier.py:64]: Searching for D35 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D35 footprint position: (266164470, 49149459)
+[board_modifier.py:97]: Getting D35 footprint position: (266164470, 49149459)
+[board_modifier.py:64]: Searching for LED35 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED35 footprint position: (257582923, 49194357)
+[board_modifier.py:97]: Getting LED35 footprint position: (257582923, 49194357)
+[board_modifier.py:97]: Getting MX36 footprint position: (275391127, 41874739)
+[board_modifier.py:64]: Searching for D36 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D36 footprint position: (285201637, 46758943)
+[board_modifier.py:97]: Getting D36 footprint position: (285201637, 46758943)
+[board_modifier.py:64]: Searching for LED36 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED36 footprint position: (276620090, 46803841)
+[board_modifier.py:97]: Getting LED36 footprint position: (276620090, 46803841)
+[board_modifier.py:97]: Getting MX37 footprint position: (296462500, 39287500)
+[board_modifier.py:64]: Searching for D37 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D37 footprint position: (304800000, 46400000)
+[board_modifier.py:64]: Searching for LED37 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED37 footprint position: (296462500, 44367500)
+[board_modifier.py:97]: Getting MX38 footprint position: (315512500, 39287500)
+[board_modifier.py:64]: Searching for D38 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D38 footprint position: (323850000, 46400000)
+[board_modifier.py:64]: Searching for LED38 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED38 footprint position: (315512500, 44367500)
+[board_modifier.py:97]: Getting MX39 footprint position: (334562500, 39287500)
+[board_modifier.py:64]: Searching for D39 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D39 footprint position: (342900000, 46400000)
+[board_modifier.py:64]: Searching for LED39 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED39 footprint position: (334562500, 44367500)
+[board_modifier.py:97]: Getting MX40 footprint position: (358375000, 39287500)
+[board_modifier.py:64]: Searching for D40 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D40 footprint position: (366712500, 46400000)
+[board_modifier.py:64]: Searching for LED40 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED40 footprint position: (358375000, 44367500)
+[board_modifier.py:97]: Getting MX41 footprint position: (225146458, 76587647)
+[board_modifier.py:64]: Searching for D41 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D41 footprint position: (234956968, 81471851)
+[board_modifier.py:97]: Getting D41 footprint position: (234956968, 81471851)
+[board_modifier.py:64]: Searching for LED41 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED41 footprint position: (226375421, 81516749)
+[board_modifier.py:97]: Getting LED41 footprint position: (226375421, 81516749)
+[board_modifier.py:97]: Getting MX42 footprint position: (243031472, 69576097)
+[board_modifier.py:64]: Searching for D42 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D42 footprint position: (252841982, 74460301)
+[board_modifier.py:97]: Getting D42 footprint position: (252841982, 74460301)
+[board_modifier.py:64]: Searching for LED42 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED42 footprint position: (244260435, 74505199)
+[board_modifier.py:97]: Getting LED42 footprint position: (244260435, 74505199)
+[board_modifier.py:97]: Getting MX43 footprint position: (260962572, 62749388)
+[board_modifier.py:64]: Searching for D43 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D43 footprint position: (270773082, 67633592)
+[board_modifier.py:97]: Getting D43 footprint position: (270773082, 67633592)
+[board_modifier.py:64]: Searching for LED43 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED43 footprint position: (262191535, 67678490)
+[board_modifier.py:97]: Getting LED43 footprint position: (262191535, 67678490)
+[board_modifier.py:97]: Getting MX44 footprint position: (279999739, 60358873)
+[board_modifier.py:64]: Searching for D44 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D44 footprint position: (289810249, 65243077)
+[board_modifier.py:97]: Getting D44 footprint position: (289810249, 65243077)
+[board_modifier.py:64]: Searching for LED44 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED44 footprint position: (281228702, 65287975)
+[board_modifier.py:97]: Getting LED44 footprint position: (281228702, 65287975)
+[board_modifier.py:97]: Getting MX45 footprint position: (301225000, 58337500)
+[board_modifier.py:64]: Searching for D45 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D45 footprint position: (309562500, 65450000)
+[board_modifier.py:64]: Searching for LED45 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED45 footprint position: (301225000, 63417500)
+[board_modifier.py:97]: Getting MX46 footprint position: (320275000, 58337500)
+[board_modifier.py:64]: Searching for D46 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D46 footprint position: (328612500, 65450000)
+[board_modifier.py:64]: Searching for LED46 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED46 footprint position: (320275000, 63417500)
+[board_modifier.py:97]: Getting MX47 footprint position: (339325000, 58337500)
+[board_modifier.py:64]: Searching for D47 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D47 footprint position: (347662500, 65450000)
+[board_modifier.py:64]: Searching for LED47 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED47 footprint position: (339325000, 63417500)
+[board_modifier.py:97]: Getting MX48 footprint position: (363137500, 58337500)
+[board_modifier.py:64]: Searching for D48 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D48 footprint position: (371475000, 65450000)
+[board_modifier.py:64]: Searching for LED48 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED48 footprint position: (363137500, 63417500)
+[board_modifier.py:97]: Getting MX49 footprint position: (229755070, 95071780)
+[board_modifier.py:64]: Searching for D49 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D49 footprint position: (239565580, 99955984)
+[board_modifier.py:97]: Getting D49 footprint position: (239565580, 99955984)
+[board_modifier.py:64]: Searching for LED49 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED49 footprint position: (230984033, 100000882)
+[board_modifier.py:97]: Getting LED49 footprint position: (230984033, 100000882)
+[board_modifier.py:97]: Getting MX50 footprint position: (247640084, 88060231)
+[board_modifier.py:64]: Searching for D50 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D50 footprint position: (257450594, 92944435)
+[board_modifier.py:97]: Getting D50 footprint position: (257450594, 92944435)
+[board_modifier.py:64]: Searching for LED50 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED50 footprint position: (248869047, 92989333)
+[board_modifier.py:97]: Getting LED50 footprint position: (248869047, 92989333)
+[board_modifier.py:97]: Getting MX51 footprint position: (265571184, 81233523)
+[board_modifier.py:64]: Searching for D51 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D51 footprint position: (275381694, 86117727)
+[board_modifier.py:97]: Getting D51 footprint position: (275381694, 86117727)
+[board_modifier.py:64]: Searching for LED51 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED51 footprint position: (266800147, 86162625)
+[board_modifier.py:97]: Getting LED51 footprint position: (266800147, 86162625)
+[board_modifier.py:97]: Getting MX52 footprint position: (284608351, 78843006)
+[board_modifier.py:64]: Searching for D52 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D52 footprint position: (294418861, 83727210)
+[board_modifier.py:97]: Getting D52 footprint position: (294418861, 83727210)
+[board_modifier.py:64]: Searching for LED52 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED52 footprint position: (285837314, 83772108)
+[board_modifier.py:97]: Getting LED52 footprint position: (285837314, 83772108)
+[board_modifier.py:97]: Getting MX53 footprint position: (305987500, 77387500)
+[board_modifier.py:64]: Searching for D53 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D53 footprint position: (314325000, 84500000)
+[board_modifier.py:64]: Searching for LED53 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED53 footprint position: (305987500, 82467500)
+[board_modifier.py:97]: Getting MX54 footprint position: (325037500, 77387500)
+[board_modifier.py:64]: Searching for D54 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D54 footprint position: (333375000, 84500000)
+[board_modifier.py:64]: Searching for LED54 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED54 footprint position: (325037500, 82467500)
+[board_modifier.py:97]: Getting MX55 footprint position: (355993750, 77387500)
+[board_modifier.py:64]: Searching for D55 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D55 footprint position: (364331250, 84500000)
+[board_modifier.py:64]: Searching for LED55 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED55 footprint position: (355993750, 82467500)
+[board_modifier.py:97]: Getting MX56 footprint position: (234363682, 113555914)
+[board_modifier.py:64]: Searching for D56 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D56 footprint position: (244174192, 118440118)
+[board_modifier.py:97]: Getting D56 footprint position: (244174192, 118440118)
+[board_modifier.py:64]: Searching for LED56 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED56 footprint position: (235592645, 118485016)
+[board_modifier.py:97]: Getting LED56 footprint position: (235592645, 118485016)
+[board_modifier.py:97]: Getting MX57 footprint position: (252248696, 106544364)
+[board_modifier.py:64]: Searching for D57 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D57 footprint position: (262059206, 111428568)
+[board_modifier.py:97]: Getting D57 footprint position: (262059206, 111428568)
+[board_modifier.py:64]: Searching for LED57 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED57 footprint position: (253477659, 111473466)
+[board_modifier.py:97]: Getting LED57 footprint position: (253477659, 111473466)
+[board_modifier.py:97]: Getting MX58 footprint position: (270179796, 99717656)
+[board_modifier.py:64]: Searching for D58 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D58 footprint position: (279990306, 104601860)
+[board_modifier.py:97]: Getting D58 footprint position: (279990306, 104601860)
+[board_modifier.py:64]: Searching for LED58 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED58 footprint position: (271408759, 104646758)
+[board_modifier.py:97]: Getting LED58 footprint position: (271408759, 104646758)
+[board_modifier.py:97]: Getting MX59 footprint position: (289216963, 97327140)
+[board_modifier.py:64]: Searching for D59 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D59 footprint position: (299027473, 102211344)
+[board_modifier.py:97]: Getting D59 footprint position: (299027473, 102211344)
+[board_modifier.py:64]: Searching for LED59 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED59 footprint position: (290445926, 102256242)
+[board_modifier.py:97]: Getting LED59 footprint position: (290445926, 102256242)
+[board_modifier.py:97]: Getting MX60 footprint position: (310750000, 96437500)
+[board_modifier.py:64]: Searching for D60 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D60 footprint position: (319087500, 103550000)
+[board_modifier.py:64]: Searching for LED60 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED60 footprint position: (310750000, 101517500)
+[board_modifier.py:97]: Getting MX61 footprint position: (336943750, 96437500)
+[board_modifier.py:64]: Searching for D61 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D61 footprint position: (345281250, 103550000)
+[board_modifier.py:64]: Searching for LED61 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED61 footprint position: (336943750, 101517500)
+[board_modifier.py:97]: Getting MX62 footprint position: (367900000, 101200000)
+[board_modifier.py:64]: Searching for D62 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D62 footprint position: (376237500, 108312500)
+[board_modifier.py:64]: Searching for LED62 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED62 footprint position: (367900000, 106280000)
+[board_modifier.py:97]: Getting MX63 footprint position: (215879549, 118164526)
+[board_modifier.py:64]: Searching for D63 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D63 footprint position: (225690059, 123048730)
+[board_modifier.py:97]: Getting D63 footprint position: (225690059, 123048730)
+[board_modifier.py:64]: Searching for LED63 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED63 footprint position: (217108512, 123093628)
+[board_modifier.py:97]: Getting LED63 footprint position: (217108512, 123093628)
+[board_modifier.py:97]: Getting MX64 footprint position: (232040744, 133768277)
+[board_modifier.py:64]: Searching for D64 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D64 footprint position: (241851254, 138652481)
+[board_modifier.py:97]: Getting D64 footprint position: (241851254, 138652481)
+[board_modifier.py:64]: Searching for LED64 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED64 footprint position: (233269707, 138697379)
+[board_modifier.py:97]: Getting LED64 footprint position: (233269707, 138697379)
+[board_modifier.py:97]: Getting MX65 footprint position: (263788859, 123300268)
+[board_modifier.py:64]: Searching for D65 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D65 footprint position: (273599369, 128184472)
+[board_modifier.py:97]: Getting D65 footprint position: (273599369, 128184472)
+[board_modifier.py:64]: Searching for LED65 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED65 footprint position: (265017822, 128229370)
+[board_modifier.py:97]: Getting LED65 footprint position: (265017822, 128229370)
+[board_modifier.py:97]: Getting MX66 footprint position: (286894026, 117539503)
+[board_modifier.py:64]: Searching for D66 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D66 footprint position: (296704536, 122423707)
+[board_modifier.py:97]: Getting D66 footprint position: (296704536, 122423707)
+[board_modifier.py:64]: Searching for LED66 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED66 footprint position: (288122989, 122468605)
+[board_modifier.py:97]: Getting LED66 footprint position: (288122989, 122468605)
+[board_modifier.py:97]: Getting MX67 footprint position: (322656250, 115487500)
+[board_modifier.py:64]: Searching for D67 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D67 footprint position: (330993750, 122600000)
+[board_modifier.py:64]: Searching for LED67 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED67 footprint position: (322656250, 120567500)
+[board_modifier.py:97]: Getting MX68 footprint position: (348850000, 120250000)
+[board_modifier.py:64]: Searching for D68 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D68 footprint position: (357187500, 127362500)
+[board_modifier.py:64]: Searching for LED68 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED68 footprint position: (348850000, 125330000)
+[board_modifier.py:97]: Getting MX69 footprint position: (367900000, 120250000)
+[board_modifier.py:64]: Searching for D69 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D69 footprint position: (376237500, 127362500)
+[board_modifier.py:64]: Searching for LED69 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED69 footprint position: (367900000, 125330000)
+[board_modifier.py:97]: Getting MX70 footprint position: (386950000, 120250000)
+[board_modifier.py:64]: Searching for D70 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting D70 footprint position: (395287500, 127362500)
+[board_modifier.py:64]: Searching for LED70 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[board_modifier.py:84]: Setting LED70 footprint position: (386950000, 125330000)
+[board_modifier.py:64]: Searching for D1 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX1 with D1
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (49892000, 34207500) with pad (52387500, 44750000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX1:2
+[board_modifier.py:266]: Track collide with pad MX1:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX1:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(49892000, 34207500), (52387500, 36703000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D1:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 5086a423-f0ed-4e55-af5f-2873a03002e4 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(52387500, 36703000), (52387500, 44750000)]
+[board_modifier.py:64]: Searching for D2 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX2 with D2
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (87992000, 34207500) with pad (90487500, 44750000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX2:2
+[board_modifier.py:266]: Track collide with pad MX2:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX2:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(87992000, 34207500), (90487500, 36703000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D2:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of c692b3d4-0a73-4bb4-ab9d-dda2d5533235 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(90487500, 36703000), (90487500, 44750000)]
+[board_modifier.py:64]: Searching for D3 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX3 with D3
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (107042000, 34207500) with pad (109537500, 44750000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX3:2
+[board_modifier.py:266]: Track collide with pad MX3:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX3:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(107042000, 34207500), (109537500, 36703000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D3:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 18c1db49-6466-486e-8972-976b12e546c9 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(109537500, 36703000), (109537500, 44750000)]
+[board_modifier.py:64]: Searching for D4 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX4 with D4
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (129122718, 38353286) with pad (128993629, 49186345) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX4:2
+[board_modifier.py:266]: Track collide with pad MX4:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX4:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(129122718, 38353286), (130940374, 41378373)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D4:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 6915c4ec-197c-4f08-9913-c9a7d85cfd0b track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(130940374, 41378373), (128993629, 49186345)]
+[board_modifier.py:64]: Searching for D5 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX5 with D5
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (148159885, 40743802) with pad (148030796, 51576861) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX5:2
+[board_modifier.py:266]: Track collide with pad MX5:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX5:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(148159885, 40743802), (149977541, 43768889)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D5:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 3079d808-9df9-4f88-aff5-2b8b7b522f01 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(149977541, 43768889), (148030796, 51576861)]
+[board_modifier.py:64]: Searching for D6 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX6 with D6
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (166090985, 47570510) with pad (165961896, 58403569) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX6:2
+[board_modifier.py:266]: Track collide with pad MX6:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX6:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(166090985, 47570510), (167908641, 50595598)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D6:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 3fdbb4d6-4ff4-4028-b0d9-1502b1a4de76 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(167908641, 50595598), (165961896, 58403569)]
+[board_modifier.py:64]: Searching for D7 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX7 with D7
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (183975999, 54582059) with pad (183846910, 65415118) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX7:2
+[board_modifier.py:266]: Track collide with pad MX7:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX7:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(183975999, 54582059), (185793655, 57607147)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D7:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 58306a21-3b0b-4b76-baa5-c0920037d0c3 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(185793655, 57607147), (183846910, 65415118)]
+[board_modifier.py:64]: Searching for D8 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX8 with D8
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (45129500, 53257500) with pad (47625000, 63800000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX8:2
+[board_modifier.py:266]: Track collide with pad MX8:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX8:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(45129500, 53257500), (47625000, 55753000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D8:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of b9e96447-031e-4a98-b92d-540f62451b06 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(47625000, 55753000), (47625000, 63800000)]
+[board_modifier.py:64]: Searching for D9 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX9 with D9
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (78467000, 53257500) with pad (80962500, 63800000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX9:2
+[board_modifier.py:266]: Track collide with pad MX9:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX9:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(78467000, 53257500), (80962500, 55753000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D9:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of fb838e21-7c67-46b6-87ff-ac7013acdcba track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(80962500, 55753000), (80962500, 63800000)]
+[board_modifier.py:64]: Searching for D10 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX10 with D10
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (102279500, 53257500) with pad (104775000, 63800000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX10:2
+[board_modifier.py:266]: Track collide with pad MX10:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX10:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(102279500, 53257500), (104775000, 55753000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D10:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 89dd1570-17f9-40b2-9914-1b6ed28c67e8 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(104775000, 55753000), (104775000, 63800000)]
+[board_modifier.py:64]: Searching for D11 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX11 with D11
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (124514106, 56837419) with pad (124385017, 67670478) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX11:2
+[board_modifier.py:266]: Track collide with pad MX11:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX11:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(124514106, 56837419), (126331762, 59862506)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D11:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of fed2b9d8-b0bb-41da-b736-90257919431b track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(126331762, 59862506), (124385017, 67670478)]
+[board_modifier.py:64]: Searching for D12 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX12 with D12
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (143551273, 59227934) with pad (143422184, 70060993) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX12:2
+[board_modifier.py:266]: Track collide with pad MX12:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX12:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(143551273, 59227934), (145368929, 62253022)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D12:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of a71ed597-1a9c-4cc2-a62f-7d475998833d track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(145368929, 62253022), (143422184, 70060993)]
+[board_modifier.py:64]: Searching for D13 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX13 with D13
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (161482373, 66054643) with pad (161353284, 76887702) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX13:2
+[board_modifier.py:266]: Track collide with pad MX13:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX13:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(161482373, 66054643), (163300029, 69079731)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D13:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 54ce72b0-03ce-47c6-aad9-68396e0d12c3 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(163300029, 69079731), (161353284, 76887702)]
+[board_modifier.py:64]: Searching for D14 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX14 with D14
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (179367387, 73066193) with pad (179238298, 83899252) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX14:2
+[board_modifier.py:266]: Track collide with pad MX14:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX14:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(179367387, 73066193), (181185043, 76091281)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D14:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 075b10a8-1c7a-4f3c-a25e-614666a8e03c track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(181185043, 76091281), (179238298, 83899252)]
+[board_modifier.py:64]: Searching for D15 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX15 with D15
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (40367000, 72307500) with pad (42862500, 82850000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX15:2
+[board_modifier.py:266]: Track collide with pad MX15:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX15:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(40367000, 72307500), (42862500, 74803000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D15:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 0ddf5d87-870e-457f-9185-9bd37f2f88e2 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(42862500, 74803000), (42862500, 82850000)]
+[board_modifier.py:64]: Searching for D16 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX16 with D16
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (71323250, 72307500) with pad (73818750, 82850000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX16:2
+[board_modifier.py:266]: Track collide with pad MX16:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX16:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(71323250, 72307500), (73818750, 74803000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D16:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 5a2d9597-04a7-4a05-8670-dc16c833341a track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(73818750, 74803000), (73818750, 82850000)]
+[board_modifier.py:64]: Searching for D17 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX17 with D17
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (97517000, 72307500) with pad (100012500, 82850000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX17:2
+[board_modifier.py:266]: Track collide with pad MX17:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX17:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(97517000, 72307500), (100012500, 74803000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D17:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 6819a8d2-18d0-44e0-8dbe-600fbf52f468 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(100012500, 74803000), (100012500, 82850000)]
+[board_modifier.py:64]: Searching for D18 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX18 with D18
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (119905494, 75321553) with pad (119776405, 86154612) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX18:2
+[board_modifier.py:266]: Track collide with pad MX18:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX18:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(119905494, 75321553), (121723150, 78346640)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D18:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 17cdffd7-ac27-4bf8-8546-e01fc330bfd7 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(121723150, 78346640), (119776405, 86154612)]
+[board_modifier.py:64]: Searching for D19 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX19 with D19
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (138942661, 77712069) with pad (138813572, 88545128) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX19:2
+[board_modifier.py:266]: Track collide with pad MX19:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX19:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(138942661, 77712069), (140760317, 80737156)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D19:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of e943a598-4af3-4241-b6b6-22f396690d95 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(140760317, 80737156), (138813572, 88545128)]
+[board_modifier.py:64]: Searching for D20 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX20 with D20
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (156873761, 84538777) with pad (156744672, 95371836) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX20:2
+[board_modifier.py:266]: Track collide with pad MX20:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX20:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(156873761, 84538777), (158691417, 87563864)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D20:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 196eaa43-a641-4f4a-903b-788995b21e6e track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(158691417, 87563864), (156744672, 95371836)]
+[board_modifier.py:64]: Searching for D21 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX21 with D21
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (174758775, 91550326) with pad (174629686, 102383385) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX21:2
+[board_modifier.py:266]: Track collide with pad MX21:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX21:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(174758775, 91550326), (176576431, 94575413)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D21:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of c5fb9849-8f61-4cdf-b855-9061ac6c3232 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(176576431, 94575413), (174629686, 102383385)]
+[board_modifier.py:64]: Searching for D22 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX22 with D22
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (64179500, 91357500) with pad (66675000, 101900000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX22:2
+[board_modifier.py:266]: Track collide with pad MX22:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX22:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(64179500, 91357500), (66675000, 93853000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D22:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of ee1ecf6c-8ea4-48f3-88f9-069ffded7791 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(66675000, 93853000), (66675000, 101900000)]
+[board_modifier.py:64]: Searching for D23 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX23 with D23
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (92754500, 91357500) with pad (95250000, 101900000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX23:2
+[board_modifier.py:266]: Track collide with pad MX23:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX23:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(92754500, 91357500), (95250000, 93853000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D23:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 1b2b699d-be00-4b9c-b086-55dcdc74ceec track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(95250000, 93853000), (95250000, 101900000)]
+[board_modifier.py:64]: Searching for D24 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX24 with D24
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (115296881, 93805686) with pad (115167792, 104638745) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX24:2
+[board_modifier.py:266]: Track collide with pad MX24:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX24:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(115296881, 93805686), (117114536, 96830773)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D24:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of f705c35b-76c0-4179-ad49-ed10760f5490 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(117114536, 96830773), (115167792, 104638745)]
+[board_modifier.py:64]: Searching for D25 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX25 with D25
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (134334048, 96196202) with pad (134204959, 107029261) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX25:2
+[board_modifier.py:266]: Track collide with pad MX25:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX25:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(134334048, 96196202), (136151704, 99221289)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D25:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 62478e49-00f3-44f2-a504-6e37d4db03a2 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(136151704, 99221289), (134204959, 107029261)]
+[board_modifier.py:64]: Searching for D26 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX26 with D26
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (152265149, 103022911) with pad (152136060, 113855970) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX26:2
+[board_modifier.py:266]: Track collide with pad MX26:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX26:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(152265149, 103022911), (154082805, 106047998)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D26:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 4b6332d1-b0bd-4086-8430-6ad3f8f3cb3b track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(154082805, 106047998), (152136060, 113855970)]
+[board_modifier.py:64]: Searching for D27 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX27 with D27
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (170150163, 110034460) with pad (170021074, 120867519) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX27:2
+[board_modifier.py:266]: Track collide with pad MX27:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX27:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(170150163, 110034460), (171967819, 113059547)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D27:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of bb45ef07-12ea-41b1-b3b0-9df84f4ed942 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(171967819, 113059547), (170021074, 120867519)]
+[board_modifier.py:64]: Searching for D28 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX28 with D28
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (66560750, 110407500) with pad (69056250, 120950000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX28:2
+[board_modifier.py:266]: Track collide with pad MX28:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX28:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(66560750, 110407500), (69056250, 112903000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D28:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of aa51b746-c91f-49df-a943-38f47cb47d82 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(69056250, 112903000), (69056250, 120950000)]
+[board_modifier.py:64]: Searching for D29 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX29 with D29
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (122240853, 115170203) with pad (122111764, 126003262) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX29:2
+[board_modifier.py:266]: Track collide with pad MX29:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX29:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(122240853, 115170203), (124058509, 118195289)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D29:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of bcc0f9f9-a03d-4ad0-b680-17c664c0e65a track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(124058509, 118195289), (122111764, 126003262)]
+[board_modifier.py:64]: Searching for D30 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX30 with D30
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (145346020, 120930968) with pad (145216931, 131764027) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX30:2
+[board_modifier.py:266]: Track collide with pad MX30:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX30:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(145346020, 120930968), (147163676, 123956055)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D30:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of f8be23c4-1394-4461-9836-afbfa00146c5 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(147163676, 123956055), (145216931, 131764027)]
+[board_modifier.py:64]: Searching for D31 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX31 with D31
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (174783617, 130822900) with pad (174654528, 141655959) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX31:2
+[board_modifier.py:266]: Track collide with pad MX31:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX31:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(174783617, 130822900), (176601273, 133847988)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D31:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of eb9f0150-6b05-4e94-b905-05faaae2c183 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(176601273, 133847988), (174654528, 141655959)]
+[board_modifier.py:64]: Searching for D32 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX32 with D32
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (188634296, 114643072) with pad (188505207, 125476131) at 14.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX32:2
+[board_modifier.py:266]: Track collide with pad MX32:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX32:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(188634296, 114643072), (190451952, 117668160)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D32:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of d97b2f41-cc04-4929-89fd-ad62329bed23 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(190451952, 117668160), (188505207, 125476131)]
+[board_modifier.py:64]: Searching for D33 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX33 with D33
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (224977350, 51761103) with pad (229949185, 61386729) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX33:2
+[board_modifier.py:266]: Track collide with pad MX33:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX33:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(224977350, 51761103), (228002439, 53578759)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D33:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 9fc75b9f-9042-4185-a9fd-49d03c797fcb track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(228002439, 53578759), (229949185, 61386729)]
+[board_modifier.py:64]: Searching for D34 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX34 with D34
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (242862364, 44749553) with pad (247834199, 54375179) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX34:2
+[board_modifier.py:266]: Track collide with pad MX34:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX34:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(242862364, 44749553), (245887452, 46567209)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D34:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 401ba9db-3080-4c19-9933-015672c4fbec track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(245887452, 46567209), (247834199, 54375179)]
+[board_modifier.py:64]: Searching for D35 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX35 with D35
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (260793464, 37922845) with pad (265765299, 47548471) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX35:2
+[board_modifier.py:266]: Track collide with pad MX35:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX35:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(260793464, 37922845), (263818552, 39740501)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D35:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of ea3534ce-dba8-4ec1-8ef3-f95608dbd0fc track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(263818552, 39740501), (265765299, 47548471)]
+[board_modifier.py:64]: Searching for D36 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX36 with D36
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (279830631, 35532329) with pad (284802466, 45157955) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX36:2
+[board_modifier.py:266]: Track collide with pad MX36:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX36:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(279830631, 35532329), (282855720, 37349986)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D36:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 1d0001e8-e2e4-4f30-b075-8b9d227387d6 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(282855720, 37349986), (284802466, 45157955)]
+[board_modifier.py:64]: Searching for D37 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX37 with D37
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (302304500, 34207500) with pad (304800000, 44750000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX37:2
+[board_modifier.py:266]: Track collide with pad MX37:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX37:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(302304500, 34207500), (304800000, 36703000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D37:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 5ba78a32-18b7-4891-96ec-2ade06fc4193 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(304800000, 36703000), (304800000, 44750000)]
+[board_modifier.py:64]: Searching for D38 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX38 with D38
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (321354500, 34207500) with pad (323850000, 44750000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX38:2
+[board_modifier.py:266]: Track collide with pad MX38:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX38:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(321354500, 34207500), (323850000, 36703000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D38:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 796d491b-fd4e-49c6-b88d-b66d29239338 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(323850000, 36703000), (323850000, 44750000)]
+[board_modifier.py:64]: Searching for D39 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX39 with D39
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (340404500, 34207500) with pad (342900000, 44750000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX39:2
+[board_modifier.py:266]: Track collide with pad MX39:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX39:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(340404500, 34207500), (342900000, 36703000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D39:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 61176571-ea86-425b-8bc5-3081d03fba1c track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(342900000, 36703000), (342900000, 44750000)]
+[board_modifier.py:64]: Searching for D40 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX40 with D40
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (364217000, 34207500) with pad (366712500, 44750000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX40:2
+[board_modifier.py:266]: Track collide with pad MX40:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX40:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(364217000, 34207500), (366712500, 36703000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D40:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of ca0e927c-8185-4181-a666-984ab9691378 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(366712500, 36703000), (366712500, 44750000)]
+[board_modifier.py:64]: Searching for D41 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX41 with D41
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (229585962, 70245237) with pad (234557797, 79870863) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX41:2
+[board_modifier.py:266]: Track collide with pad MX41:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX41:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(229585962, 70245237), (232611051, 72062894)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D41:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of b038c9ce-9687-4c29-a84d-d95f12f09161 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(232611051, 72062894), (234557797, 79870863)]
+[board_modifier.py:64]: Searching for D42 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX42 with D42
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (247470976, 63233687) with pad (252442811, 72859313) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX42:2
+[board_modifier.py:266]: Track collide with pad MX42:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX42:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(247470976, 63233687), (250496065, 65051344)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D42:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of aef7bc13-28ed-4380-ae87-31e6007d3e3d track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(250496065, 65051344), (252442811, 72859313)]
+[board_modifier.py:64]: Searching for D43 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX43 with D43
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (265402076, 56406978) with pad (270373911, 66032604) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX43:2
+[board_modifier.py:266]: Track collide with pad MX43:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX43:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(265402076, 56406978), (268427165, 58224634)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D43:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 6a5d72e0-542d-494a-a1a2-34cbdb2c3764 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(268427165, 58224634), (270373911, 66032604)]
+[board_modifier.py:64]: Searching for D44 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX44 with D44
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (284439243, 54016463) with pad (289411078, 63642089) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX44:2
+[board_modifier.py:266]: Track collide with pad MX44:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX44:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(284439243, 54016463), (287464332, 55834120)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D44:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 49df167c-f169-4726-a8e8-ab48d4178aeb track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(287464332, 55834120), (289411078, 63642089)]
+[board_modifier.py:64]: Searching for D45 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX45 with D45
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (307067000, 53257500) with pad (309562500, 63800000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX45:2
+[board_modifier.py:266]: Track collide with pad MX45:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX45:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(307067000, 53257500), (309562500, 55753000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D45:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 69c27eeb-140c-41bf-a4c5-fc6648a9f20b track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(309562500, 55753000), (309562500, 63800000)]
+[board_modifier.py:64]: Searching for D46 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX46 with D46
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (326117000, 53257500) with pad (328612500, 63800000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX46:2
+[board_modifier.py:266]: Track collide with pad MX46:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX46:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(326117000, 53257500), (328612500, 55753000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D46:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 60d38558-3380-4e76-9029-540e1263709a track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(328612500, 55753000), (328612500, 63800000)]
+[board_modifier.py:64]: Searching for D47 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX47 with D47
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (345167000, 53257500) with pad (347662500, 63800000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX47:2
+[board_modifier.py:266]: Track collide with pad MX47:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX47:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(345167000, 53257500), (347662500, 55753000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D47:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of b2abeee1-0f68-41e7-9e9d-a485e7f30663 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(347662500, 55753000), (347662500, 63800000)]
+[board_modifier.py:64]: Searching for D48 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX48 with D48
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (368979500, 53257500) with pad (371475000, 63800000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX48:2
+[board_modifier.py:266]: Track collide with pad MX48:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX48:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(368979500, 53257500), (371475000, 55753000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D48:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of c9778544-a8b3-428b-a3f3-ba8cf41dfaa0 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(371475000, 55753000), (371475000, 63800000)]
+[board_modifier.py:64]: Searching for D49 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX49 with D49
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (234194574, 88729370) with pad (239166409, 98354996) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX49:2
+[board_modifier.py:266]: Track collide with pad MX49:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX49:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(234194574, 88729370), (237219663, 90547027)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D49:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 217872dd-6403-4418-a9e6-f11809edceb5 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(237219663, 90547027), (239166409, 98354996)]
+[board_modifier.py:64]: Searching for D50 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX50 with D50
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (252079588, 81717821) with pad (257051423, 91343447) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX50:2
+[board_modifier.py:266]: Track collide with pad MX50:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX50:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(252079588, 81717821), (255104677, 83535478)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D50:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 5c59cb43-dfa8-415e-a299-e28781a7b178 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(255104677, 83535478), (257051423, 91343447)]
+[board_modifier.py:64]: Searching for D51 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX51 with D51
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (270010688, 74891113) with pad (274982523, 84516739) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX51:2
+[board_modifier.py:266]: Track collide with pad MX51:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX51:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(270010688, 74891113), (273035777, 76708770)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D51:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 43d2581e-9fc6-4075-ba7b-bd7ecc7c6a52 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(273035777, 76708770), (274982523, 84516739)]
+[board_modifier.py:64]: Searching for D52 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX52 with D52
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (289047855, 72500596) with pad (294019690, 82126222) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX52:2
+[board_modifier.py:266]: Track collide with pad MX52:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX52:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(289047855, 72500596), (292072944, 74318253)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D52:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 934fc5b7-8e96-436b-ba94-1def3310a05a track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(292072944, 74318253), (294019690, 82126222)]
+[board_modifier.py:64]: Searching for D53 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX53 with D53
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (311829500, 72307500) with pad (314325000, 82850000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX53:2
+[board_modifier.py:266]: Track collide with pad MX53:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX53:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(311829500, 72307500), (314325000, 74803000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D53:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of fcf96028-624c-440b-8c98-402d6020686f track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(314325000, 74803000), (314325000, 82850000)]
+[board_modifier.py:64]: Searching for D54 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX54 with D54
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (330879500, 72307500) with pad (333375000, 82850000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX54:2
+[board_modifier.py:266]: Track collide with pad MX54:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX54:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(330879500, 72307500), (333375000, 74803000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D54:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of d4dfbff0-3cac-4d03-a30c-6858418972ca track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(333375000, 74803000), (333375000, 82850000)]
+[board_modifier.py:64]: Searching for D55 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX55 with D55
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (361835750, 72307500) with pad (364331250, 82850000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX55:2
+[board_modifier.py:266]: Track collide with pad MX55:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX55:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(361835750, 72307500), (364331250, 74803000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D55:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 08be5162-de18-4c89-936b-c4d9e091ae46 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(364331250, 74803000), (364331250, 82850000)]
+[board_modifier.py:64]: Searching for D56 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX56 with D56
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (238803186, 107213504) with pad (243775021, 116839130) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX56:2
+[board_modifier.py:266]: Track collide with pad MX56:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX56:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(238803186, 107213504), (241828275, 109031161)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D56:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of a23a8c5d-a04e-4403-96a0-6baef323a52b track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(241828275, 109031161), (243775021, 116839130)]
+[board_modifier.py:64]: Searching for D57 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX57 with D57
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (256688200, 100201954) with pad (261660035, 109827580) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX57:2
+[board_modifier.py:266]: Track collide with pad MX57:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX57:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(256688200, 100201954), (259713289, 102019611)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D57:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 42fe0021-8bf9-45e0-b1b3-90ed2c2ffa8a track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(259713289, 102019611), (261660035, 109827580)]
+[board_modifier.py:64]: Searching for D58 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX58 with D58
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (274619300, 93375246) with pad (279591135, 103000872) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX58:2
+[board_modifier.py:266]: Track collide with pad MX58:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX58:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(274619300, 93375246), (277644389, 95192903)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D58:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 15e0e8df-385a-45ba-b202-3e9f65110404 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(277644389, 95192903), (279591135, 103000872)]
+[board_modifier.py:64]: Searching for D59 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX59 with D59
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (293656467, 90984730) with pad (298628302, 100610356) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX59:2
+[board_modifier.py:266]: Track collide with pad MX59:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX59:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(293656467, 90984730), (296681556, 92802386)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D59:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of dadb7b81-8fb2-4f4c-b625-c6b1cf03942c track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(296681556, 92802386), (298628302, 100610356)]
+[board_modifier.py:64]: Searching for D60 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX60 with D60
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (316592000, 91357500) with pad (319087500, 101900000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX60:2
+[board_modifier.py:266]: Track collide with pad MX60:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX60:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(316592000, 91357500), (319087500, 93853000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D60:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 33825bee-f4ba-472d-a782-aa900539ec5e track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(319087500, 93853000), (319087500, 101900000)]
+[board_modifier.py:64]: Searching for D61 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX61 with D61
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (342785750, 91357500) with pad (345281250, 101900000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX61:2
+[board_modifier.py:266]: Track collide with pad MX61:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX61:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(342785750, 91357500), (345281250, 93853000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D61:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 9502b8ab-838c-4e6a-8f12-49216d160771 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(345281250, 93853000), (345281250, 101900000)]
+[board_modifier.py:64]: Searching for D62 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX62 with D62
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (373742000, 96120000) with pad (376237500, 106662500) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX62:2
+[board_modifier.py:266]: Track collide with pad MX62:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX62:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(373742000, 96120000), (376237500, 98615500)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D62:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 480c9d76-3a56-46d0-ac10-5bec0059f20e track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(376237500, 98615500), (376237500, 106662500)]
+[board_modifier.py:64]: Searching for D63 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX63 with D63
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (220319053, 111822116) with pad (225290888, 121447742) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX63:2
+[board_modifier.py:266]: Track collide with pad MX63:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX63:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(220319053, 111822116), (223344141, 113639772)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D63:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of e1f1e57c-24af-4dfb-80ea-8902fa09f626 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(223344141, 113639772), (225290888, 121447742)]
+[board_modifier.py:64]: Searching for D64 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX64 with D64
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (236480248, 127425867) with pad (241452083, 137051493) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX64:2
+[board_modifier.py:266]: Track collide with pad MX64:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX64:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(236480248, 127425867), (239505337, 129243524)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D64:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 7692a7ff-5e90-43ea-a7eb-18c8cca8ae46 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(239505337, 129243524), (241452083, 137051493)]
+[board_modifier.py:64]: Searching for D65 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX65 with D65
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (268228363, 116957858) with pad (273200198, 126583484) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX65:2
+[board_modifier.py:266]: Track collide with pad MX65:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX65:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(268228363, 116957858), (271253452, 118775514)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D65:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of adff1d94-4607-4cea-9933-0b036de3d004 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(271253452, 118775514), (273200198, 126583484)]
+[board_modifier.py:64]: Searching for D66 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX66 with D66
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (291333530, 111197093) with pad (296305365, 120822719) at 346.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX66:2
+[board_modifier.py:266]: Track collide with pad MX66:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX66:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(291333530, 111197093), (294358619, 113014749)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D66:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of b1be4ed4-1a67-42c2-a314-8cb0722db066 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(294358619, 113014749), (296305365, 120822719)]
+[board_modifier.py:64]: Searching for D67 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX67 with D67
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (328498250, 110407500) with pad (330993750, 120950000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX67:2
+[board_modifier.py:266]: Track collide with pad MX67:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX67:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(328498250, 110407500), (330993750, 112903000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D67:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of d6b45bb3-ba8e-45bb-8271-9b6a5644d17c track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(330993750, 112903000), (330993750, 120950000)]
+[board_modifier.py:64]: Searching for D68 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX68 with D68
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (354692000, 115170000) with pad (357187500, 125712500) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX68:2
+[board_modifier.py:266]: Track collide with pad MX68:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX68:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(354692000, 115170000), (357187500, 117665500)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D68:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 73a21af7-0b66-4c94-8546-52e1eae2188c track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(357187500, 117665500), (357187500, 125712500)]
+[board_modifier.py:64]: Searching for D69 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX69 with D69
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (373742000, 115170000) with pad (376237500, 125712500) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX69:2
+[board_modifier.py:266]: Track collide with pad MX69:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX69:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(373742000, 115170000), (376237500, 117665500)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D69:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 58e20d35-e5aa-4565-aa40-3ea217214426 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(376237500, 117665500), (376237500, 125712500)]
+[board_modifier.py:64]: Searching for D70 footprint in /Users/win/Projects/winkeebs/win-split/pcb/Win-split.kicad_pcb
+[key_placer.py:95]: Routing MX70 with D70
+[key_placer.py:131]: Using internal autorouter method
+[board_modifier.py:407]: Routing at B.Cu layer
+[board_modifier.py:460]: Routing pad (392792000, 115170000) with pad (395287500, 125712500) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX70:2
+[board_modifier.py:266]: Track collide with pad MX70:
+[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad MX70:2
+[board_modifier.py:338]: Adding track segment (B.Cu): [(392792000, 115170000), (395287500, 117665500)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D70:2
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 5afb7456-3be3-47fe-8fa5-3c1949c2f56f track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(395287500, 117665500), (395287500, 125712500)]
+[key_placer.py:162]: Removing dangling tracks
