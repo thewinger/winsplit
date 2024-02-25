@@ -1,0 +1,14 @@
+(footprint "HOLE_M2" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "HOLE_M2" (at 0 -2) (layer "Eco2.User") hide
+      (effects (font (size 0.29972 0.29972) (thickness 0.07493)))
+    (tstamp 274418ad-8b53-425f-8ee1-92162b3284f5)
+  )
+  (fp_text value "VAL**" (at 0 1.75) (layer "Eco2.User") hide
+      (effects (font (size 0.29972 0.29972) (thickness 0.07493)))
+    (tstamp 662cba48-99a7-4897-81d8-6ceb433723dd)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers "F&B.Cu" "*.Mask" "Eco2.User")
+    (clearance 0.8) (tstamp 459e1cb6-3ebe-4633-a9e8-f6d56f4eb00f))
+)
