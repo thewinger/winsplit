@@ -129,7 +129,7 @@
     (property "Value" "" (at 0 20.32 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "random-keyboard-parts:RP2040 ProMicro" (at 0 30.48 0)
+    (property "Footprint" "RP2040 ProMicro" (at 0 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 20.32 0)

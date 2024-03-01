@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "random-keyboard-parts")(type "KiCad")(uri "/Users/win/Projects/winkeebs/win-split/random-keyboard-parts.pretty")(options "")(descr ""))
-)
