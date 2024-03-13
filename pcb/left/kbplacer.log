@@ -1,6 +1,7 @@
 [kbplacer_plugin_action.py:66]: Plugin executed with KiCad version: 7.0.11
 [kbplacer_plugin_action.py:67]: Plugin executed with python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
 [kbplacer_dialog.py:526]: Language: en
+<<<<<<< HEAD
 [kbplacer_plugin_action.py:83]: GUI state: {"switch_section": {"layout_path": "", "x_distance": "19.05", "y_distance": "19.05", "element_info": {"annotation_format": "MX{}", "position_option": "Default", "position": {"relative_position": [0.0, 0.0], "orientation": 0.0, "side": "BACK"}, "template_path": ""}}, "switch_diodes_section": {"enable": true, "route_switches_with_diodes": false, "element_info": {"annotation_format": "D{}", "position_option": "Relative", "position": null, "template_path": ""}}, "additional_elements": {"elements_info": [{"annotation_format": "LED{}", "position_option": "Relative", "position": null, "template_path": ""}]}, "misc_section": {"route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}}
 [key_placer.py:295]: Set key 1U distance: 19050000/19050000
 [key_placer.py:111]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'COL5', 'ROW4'}): ['MX33'], frozenset({'COL0', 'ROW1'}): ['MX8'], frozenset({'COL4', 'ROW4'}): ['MX32'], frozenset({'ROW0', 'COL5'}): ['MX6'], frozenset({'COL6', 'ROW1'}): ['MX14'], frozenset({'COL3', 'ROW1'}): ['MX11'], frozenset({'ROW0', 'COL4'}): ['MX5'], frozenset({'ROW4', 'COL1'}): ['MX30'], frozenset({'COL2', 'ROW2'}): ['MX17'], frozenset({'COL5', 'ROW3'}): ['MX27'], frozenset({'COL3', 'ROW4'}): ['MX31'], frozenset({'COL2', 'ROW0'}): ['MX3'], frozenset({'COL5', 'ROW2'}): ['MX20'], frozenset({'COL2', 'ROW1'}): ['MX10'], frozenset({'COL6', 'ROW3'}): ['MX28'], frozenset({'COL5', 'ROW1'}): ['MX13'], frozenset({'COL0', 'ROW3'}): ['MX22'], frozenset({'COL6', 'ROW2'}): ['MX21'], frozenset({'COL0', 'ROW2'}): ['MX15'], frozenset({'COL0', 'ROW4'}): ['MX29'], frozenset({'COL4', 'ROW3'}): ['MX26'], frozenset({'COL4', 'ROW1'}): ['MX12'], frozenset({'COL3', 'ROW3'}): ['MX25'], frozenset({'COL0', 'ROW0'}): ['MX1'], frozenset({'COL4', 'ROW2'}): ['MX19'], frozenset({'ROW0', 'COL3'}): ['MX4'], frozenset({'ROW0', 'COL1'}): ['MX2'], frozenset({'COL2', 'ROW3'}): ['MX24'], frozenset({'ROW4', 'COL6'}): ['MX34'], frozenset({'COL1', 'ROW3'}): ['MX23'], frozenset({'COL1', 'ROW2'}): ['MX16'], frozenset({'ROW0', 'COL6'}): ['MX7'], frozenset({'COL3', 'ROW2'}): ['MX18'], frozenset({'COL1', 'ROW1'}): ['MX9']})
@@ -258,3 +259,244 @@
 [board_modifier.py:63]: Searching for LED9 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
 [board_modifier.py:83]: Setting LED9 footprint position: (146635818, 116651540)
 [board_modifier.py:96]: Getting LED9 footprint position: (146635818, 116651540)
+=======
+[kbplacer_plugin_action.py:83]: GUI state: {"switch_section": {"layout_path": "", "x_distance": "19.05", "y_distance": "19.05", "element_info": {"annotation_format": "MX{}", "position_option": "Default", "position": {"relative_position": [0.0, 0.0], "orientation": 0.0, "side": "BACK"}, "template_path": ""}}, "switch_diodes_section": {"enable": true, "route_switches_with_diodes": false, "element_info": {"annotation_format": "D{}", "position_option": "Relative", "position": null, "template_path": "/Users/win/Projects/winkeebs/win-split/pcb/diode.kicad_pcb"}}, "additional_elements": {"elements_info": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"relative_position": [0.0, 0.0], "orientation": 0.0, "side": "FRONT"}, "template_path": ""}]}, "misc_section": {"route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}}
+[key_placer.py:295]: Set key 1U distance: 19050000/19050000
+[key_placer.py:111]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'COL5', 'ROW4'}): ['MX33'], frozenset({'ROW1', 'COL0'}): ['MX8'], frozenset({'ROW4', 'COL4'}): ['MX32'], frozenset({'COL5', 'ROW0'}): ['MX6'], frozenset({'ROW1', 'COL6'}): ['MX14'], frozenset({'ROW1', 'COL3'}): ['MX11'], frozenset({'COL4', 'ROW0'}): ['MX5'], frozenset({'ROW4', 'COL1'}): ['MX30'], frozenset({'COL2', 'ROW2'}): ['MX17'], frozenset({'COL5', 'ROW3'}): ['MX27'], frozenset({'ROW4', 'COL3'}): ['MX31'], frozenset({'COL2', 'ROW0'}): ['MX3'], frozenset({'COL5', 'ROW2'}): ['MX20'], frozenset({'ROW1', 'COL2'}): ['MX10'], frozenset({'COL6', 'ROW3'}): ['MX28'], frozenset({'COL5', 'ROW1'}): ['MX13'], frozenset({'ROW3', 'COL0'}): ['MX22'], frozenset({'ROW2', 'COL6'}): ['MX21'], frozenset({'ROW2', 'COL0'}): ['MX15'], frozenset({'ROW4', 'COL0'}): ['MX29'], frozenset({'ROW3', 'COL4'}): ['MX26'], frozenset({'ROW1', 'COL4'}): ['MX12'], frozenset({'ROW3', 'COL3'}): ['MX25'], frozenset({'COL0', 'ROW0'}): ['MX1'], frozenset({'ROW2', 'COL4'}): ['MX19'], frozenset({'COL3', 'ROW0'}): ['MX4'], frozenset({'COL1', 'ROW0'}): ['MX2'], frozenset({'COL2', 'ROW3'}): ['MX24'], frozenset({'COL6', 'ROW4'}): ['MX34'], frozenset({'ROW3', 'COL1'}): ['MX23'], frozenset({'ROW2', 'COL1'}): ['MX16'], frozenset({'COL6', 'ROW0'}): ['MX7'], frozenset({'ROW2', 'COL3'}): ['MX18'], frozenset({'ROW1', 'COL1'}): ['MX9']})
+[key_placer.py:115]: Diodes by switch: {'MX7': ['D7'], 'MX19': ['D19'], 'MX18': ['D18'], 'MX20': ['D20'], 'MX11': ['D11'], 'MX15': ['D15'], 'MX21': ['D21'], 'MX29': ['D29'], 'MX9': ['D9'], 'MX12': ['D12'], 'MX2': ['D2'], 'MX23': ['D23'], 'MX10': ['D10'], 'MX5': ['D5'], 'MX26': ['D26'], 'MX31': ['D31'], 'MX22': ['D22'], 'MX34': ['D34'], 'MX4': ['D4'], 'MX3': ['D3'], 'MX16': ['D16'], 'MX8': ['D8'], 'MX27': ['D27'], 'MX13': ['D13'], 'MX24': ['D24'], 'MX6': ['D6'], 'MX28': ['D28'], 'MX1': ['D1'], 'MX17': ['D17'], 'MX14': ['D14'], 'MX33': ['D33'], 'MX30': ['D30'], 'MX32': ['D32'], 'MX25': ['D25']}
+[board_modifier.py:63]: Searching for MX1 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[key_placer.py:490]: Looking for connection template between MX1 and other elements
+[board_modifier.py:96]: Getting MX1 footprint position: (147755469, 111531268)
+[key_placer.py:533]: Got connection template: Track [(7359998, 2540002) (12159837, 7339835)], Track [(12159837, 7339835) (36543235, 7339838)], Track [(37032909, 7339839) (36543235, 7339838)], Track [(37072910, 7299838) (37032909, 7339839)], Track [(36828073, 7055001) (37072910, 7299838)], Track [(35993369, 5665817) (36828073, 7055001)], Track [(36388396, 4081431) (35993369, 5665817)], Track [(35196385, 2097577) (36388396, 4081431)], Track [(37072910, 7299838) (50225166, 7299838)], Track [(50225166, 7299838) (54985003, 2539998)], Track [(-8876751, 2293248) (-6090002, 5079998)], Track [(-8876749, 1787976) (-8876751, 2293248)]
+[key_placer.py:416]: Saving template to /Users/win/Projects/winkeebs/win-split/pcb/diode.kicad_pcb
+[board_modifier.py:83]: Setting MX1 footprint position: (0, 0)
+[board_modifier.py:96]: Getting MX1 footprint position: (147755469, 111531268)
+[board_modifier.py:96]: Getting D1 footprint position: (138878719, 114969240)
+[board_modifier.py:83]: Setting D1 footprint position: (-8876750, 3437972)
+[key_placer.py:446]: Adding net COL0 with netcode 98
+[key_placer.py:446]: Adding net COL0 with netcode 98
+[key_placer.py:446]: Adding net COL0 with netcode 98
+[key_placer.py:446]: Adding net Net-(D1-A) with netcode 34
+[key_placer.py:446]: Adding net Net-(D1-A) with netcode 34
+[key_placer.py:446]: Adding net Net-(D1-A) with netcode 34
+[key_placer.py:446]: Adding net Net-(D1-A) with netcode 34
+[key_placer.py:446]: Adding net ROW0 with netcode 93
+[key_placer.py:463]: Updating pad 'MX1:1' net COL0 netcode: 98 -> 1
+[key_placer.py:463]: Updating pad 'MX1:1' net COL0 netcode: 98 -> 1
+[key_placer.py:463]: Updating pad 'MX1:1' net COL0 netcode: 98 -> 1
+[key_placer.py:463]: Updating pad 'MX1:2' net Net-(D1-A) netcode: 34 -> 2
+[key_placer.py:463]: Updating pad 'MX1:2' net Net-(D1-A) netcode: 34 -> 2
+[key_placer.py:463]: Updating pad 'MX1:2' net Net-(D1-A) netcode: 34 -> 2
+[key_placer.py:463]: Updating pad 'D1:2' net Net-(D1-A) netcode: 34 -> 2
+[key_placer.py:463]: Updating pad 'D1:1' net ROW0 netcode: 93 -> 3
+[key_placer.py:111]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'COL5', 'ROW4'}): ['MX33'], frozenset({'ROW1', 'COL0'}): ['MX8'], frozenset({'ROW4', 'COL4'}): ['MX32'], frozenset({'COL5', 'ROW0'}): ['MX6'], frozenset({'ROW1', 'COL6'}): ['MX14'], frozenset({'ROW1', 'COL3'}): ['MX11'], frozenset({'COL4', 'ROW0'}): ['MX5'], frozenset({'ROW4', 'COL1'}): ['MX30'], frozenset({'COL2', 'ROW2'}): ['MX17'], frozenset({'COL5', 'ROW3'}): ['MX27'], frozenset({'ROW4', 'COL3'}): ['MX31'], frozenset({'COL2', 'ROW0'}): ['MX3'], frozenset({'COL5', 'ROW2'}): ['MX20'], frozenset({'ROW1', 'COL2'}): ['MX10'], frozenset({'COL6', 'ROW3'}): ['MX28'], frozenset({'COL5', 'ROW1'}): ['MX13'], frozenset({'ROW3', 'COL0'}): ['MX22'], frozenset({'ROW2', 'COL6'}): ['MX21'], frozenset({'ROW2', 'COL0'}): ['MX15'], frozenset({'ROW4', 'COL0'}): ['MX29'], frozenset({'ROW3', 'COL4'}): ['MX26'], frozenset({'ROW1', 'COL4'}): ['MX12'], frozenset({'ROW3', 'COL3'}): ['MX25'], frozenset({'COL0', 'ROW0'}): ['MX1'], frozenset({'ROW2', 'COL4'}): ['MX19'], frozenset({'COL3', 'ROW0'}): ['MX4'], frozenset({'COL1', 'ROW0'}): ['MX2'], frozenset({'COL2', 'ROW3'}): ['MX24'], frozenset({'COL6', 'ROW4'}): ['MX34'], frozenset({'ROW3', 'COL1'}): ['MX23'], frozenset({'ROW2', 'COL1'}): ['MX16'], frozenset({'COL6', 'ROW0'}): ['MX7'], frozenset({'ROW2', 'COL3'}): ['MX18'], frozenset({'ROW1', 'COL1'}): ['MX9']})
+[key_placer.py:115]: Diodes by switch: {'MX7': ['D7'], 'MX19': ['D19'], 'MX18': ['D18'], 'MX20': ['D20'], 'MX11': ['D11'], 'MX15': ['D15'], 'MX21': ['D21'], 'MX29': ['D29'], 'MX9': ['D9'], 'MX12': ['D12'], 'MX2': ['D2'], 'MX23': ['D23'], 'MX10': ['D10'], 'MX5': ['D5'], 'MX26': ['D26'], 'MX31': ['D31'], 'MX22': ['D22'], 'MX34': ['D34'], 'MX4': ['D4'], 'MX3': ['D3'], 'MX16': ['D16'], 'MX8': ['D8'], 'MX27': ['D27'], 'MX13': ['D13'], 'MX24': ['D24'], 'MX6': ['D6'], 'MX28': ['D28'], 'MX1': ['D1'], 'MX17': ['D17'], 'MX14': ['D14'], 'MX33': ['D33'], 'MX30': ['D30'], 'MX32': ['D32'], 'MX25': ['D25']}
+[board_modifier.py:96]: Getting MX1 footprint position: (147755469, 111531268)
+[board_modifier.py:96]: Getting D1 footprint position: (155536821, 106047938)
+[key_placer.py:799]: Element info updated: ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(relative_position=Point(x=-8.87675, y=3.437972), orientation=90.0, side=<Side.BACK: True>), template_path='/Users/win/Projects/winkeebs/win-split/pcb/diode.kicad_pcb')
+[key_placer.py:882]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(relative_position=Point(x=-8.87675, y=3.437972), orientation=90.0, side=<Side.BACK: True>), template_path='/Users/win/Projects/winkeebs/win-split/pcb/diode.kicad_pcb')]
+[board_modifier.py:96]: Getting MX1 footprint position: (147755469, 111531268)
+[board_modifier.py:83]: Setting D1 footprint position: (155536820, 106047939)
+[board_modifier.py:96]: Getting D1 footprint position: (155536820, 106047939)
+[board_modifier.py:96]: Getting MX10 footprint position: (184711313, 121950330)
+[board_modifier.py:83]: Setting D10 footprint position: (192492664, 116467001)
+[board_modifier.py:96]: Getting D10 footprint position: (192492664, 116467001)
+[board_modifier.py:96]: Getting MX11 footprint position: (205749024, 118782463)
+[board_modifier.py:83]: Setting D11 footprint position: (214625774, 115344492)
+[board_modifier.py:96]: Getting D11 footprint position: (214625774, 115344492)
+[board_modifier.py:96]: Getting MX12 footprint position: (224799023, 116496464)
+[board_modifier.py:83]: Setting D12 footprint position: (233675773, 113058493)
+[board_modifier.py:96]: Getting D12 footprint position: (233675773, 113058493)
+[board_modifier.py:96]: Getting MX13 footprint position: (243849020, 118782464)
+[board_modifier.py:83]: Setting D13 footprint position: (252725770, 115344493)
+[board_modifier.py:96]: Getting D13 footprint position: (252725770, 115344493)
+[board_modifier.py:96]: Getting MX14 footprint position: (262899021, 121258961)
+[board_modifier.py:83]: Setting D14 footprint position: (271775771, 117820990)
+[board_modifier.py:96]: Getting D14 footprint position: (271775771, 117820990)
+[board_modifier.py:96]: Getting MX15 footprint position: (120016847, 138080478)
+[board_modifier.py:83]: Setting D15 footprint position: (127798198, 132597149)
+[board_modifier.py:96]: Getting D15 footprint position: (127798198, 132597149)
+[board_modifier.py:96]: Getting MX16 footprint position: (159283211, 147923461)
+[board_modifier.py:83]: Setting D16 footprint position: (167064562, 142440132)
+[board_modifier.py:96]: Getting D16 footprint position: (167064562, 142440132)
+[board_modifier.py:96]: Getting MX17 footprint position: (184698891, 141586620)
+[board_modifier.py:83]: Setting D17 footprint position: (192480242, 136103291)
+[board_modifier.py:96]: Getting D17 footprint position: (192480242, 136103291)
+[board_modifier.py:96]: Getting MX18 footprint position: (205749026, 137832462)
+[board_modifier.py:83]: Setting D18 footprint position: (214625776, 134394491)
+[board_modifier.py:96]: Getting D18 footprint position: (214625776, 134394491)
+[board_modifier.py:96]: Getting MX19 footprint position: (224799024, 135546465)
+[board_modifier.py:83]: Setting D19 footprint position: (233675774, 132108494)
+[board_modifier.py:96]: Getting D19 footprint position: (233675774, 132108494)
+[board_modifier.py:96]: Getting MX2 footprint position: (166239601, 106922660)
+[board_modifier.py:83]: Setting D2 footprint position: (174020952, 101439331)
+[board_modifier.py:96]: Getting D2 footprint position: (174020952, 101439331)
+[board_modifier.py:96]: Getting MX20 footprint position: (243849023, 137832461)
+[board_modifier.py:83]: Setting D20 footprint position: (252725773, 134394490)
+[board_modifier.py:96]: Getting D20 footprint position: (252725773, 134394490)
+[board_modifier.py:96]: Getting MX21 footprint position: (262899024, 140308964)
+[board_modifier.py:83]: Setting D21 footprint position: (271775774, 136870993)
+[board_modifier.py:96]: Getting D21 footprint position: (271775774, 136870993)
+[board_modifier.py:96]: Getting MX22 footprint position: (124625459, 156564608)
+[board_modifier.py:83]: Setting D22 footprint position: (132406810, 151081279)
+[board_modifier.py:96]: Getting D22 footprint position: (132406810, 151081279)
+[board_modifier.py:96]: Getting MX23 footprint position: (156960271, 168135825)
+[board_modifier.py:83]: Setting D23 footprint position: (164741622, 162652496)
+[board_modifier.py:96]: Getting D23 footprint position: (164741622, 162652496)
+[board_modifier.py:96]: Getting MX24 footprint position: (184686468, 161222904)
+[board_modifier.py:83]: Setting D24 footprint position: (192467819, 155739575)
+[board_modifier.py:96]: Getting D24 footprint position: (192467819, 155739575)
+[board_modifier.py:96]: Getting MX25 footprint position: (205749020, 156882464)
+[board_modifier.py:83]: Setting D25 footprint position: (214625770, 153444493)
+[board_modifier.py:96]: Getting D25 footprint position: (214625770, 153444493)
+[board_modifier.py:96]: Getting MX26 footprint position: (224799019, 154596462)
+[board_modifier.py:83]: Setting D26 footprint position: (233675769, 151158491)
+[board_modifier.py:96]: Getting D26 footprint position: (233675769, 151158491)
+[board_modifier.py:96]: Getting MX27 footprint position: (243849022, 156882468)
+[board_modifier.py:83]: Setting D27 footprint position: (252725772, 153444497)
+[board_modifier.py:96]: Getting D27 footprint position: (252725772, 153444497)
+[board_modifier.py:96]: Getting MX28 footprint position: (262899024, 159358966)
+[board_modifier.py:83]: Setting D28 footprint position: (271775774, 155920995)
+[board_modifier.py:96]: Getting D28 footprint position: (271775774, 155920995)
+[board_modifier.py:96]: Getting MX29 footprint position: (119979579, 196989342)
+[board_modifier.py:83]: Setting D29 footprint position: (127760930, 191506013)
+[board_modifier.py:96]: Getting D29 footprint position: (127760930, 191506013)
+[board_modifier.py:96]: Getting MX3 footprint position: (184723731, 102314049)
+[board_modifier.py:83]: Setting D3 footprint position: (192505082, 96830720)
+[board_modifier.py:96]: Getting D3 footprint position: (192505082, 96830720)
+[board_modifier.py:96]: Getting MX30 footprint position: (163879399, 186043874)
+[board_modifier.py:83]: Setting D30 footprint position: (171660750, 180560545)
+[board_modifier.py:96]: Getting D30 footprint position: (171660750, 180560545)
+[board_modifier.py:96]: Getting MX31 footprint position: (217655272, 175932460)
+[board_modifier.py:83]: Setting D31 footprint position: (226532022, 172494489)
+[board_modifier.py:96]: Getting D31 footprint position: (226532022, 172494489)
+[board_modifier.py:96]: Getting MX32 footprint position: (241467775, 175932464)
+[board_modifier.py:83]: Setting D32 footprint position: (250344525, 172494493)
+[board_modifier.py:96]: Getting D32 footprint position: (250344525, 172494493)
+[board_modifier.py:96]: Getting MX33 footprint position: (272424020, 178408960)
+[board_modifier.py:83]: Setting D33 footprint position: (281300770, 174970989)
+[board_modifier.py:96]: Getting D33 footprint position: (281300770, 174970989)
+[board_modifier.py:96]: Getting MX34 footprint position: (281949020, 159358964)
+[board_modifier.py:83]: Setting D34 footprint position: (290825770, 155920993)
+[board_modifier.py:96]: Getting D34 footprint position: (290825770, 155920993)
+[board_modifier.py:96]: Getting MX4 footprint position: (205749020, 99732457)
+[board_modifier.py:83]: Setting D4 footprint position: (214625770, 96294486)
+[board_modifier.py:96]: Getting D4 footprint position: (214625770, 96294486)
+[board_modifier.py:96]: Getting MX5 footprint position: (224799019, 97446464)
+[board_modifier.py:83]: Setting D5 footprint position: (233675769, 94008493)
+[board_modifier.py:96]: Getting D5 footprint position: (233675769, 94008493)
+[board_modifier.py:96]: Getting MX6 footprint position: (243849023, 99732471)
+[board_modifier.py:83]: Setting D6 footprint position: (252725773, 96294500)
+[board_modifier.py:96]: Getting D6 footprint position: (252725773, 96294500)
+[board_modifier.py:96]: Getting MX7 footprint position: (262899021, 102208966)
+[board_modifier.py:83]: Setting D7 footprint position: (271775771, 98770995)
+[board_modifier.py:96]: Getting D7 footprint position: (271775771, 98770995)
+[board_modifier.py:96]: Getting MX8 footprint position: (101545131, 123052801)
+[board_modifier.py:83]: Setting D8 footprint position: (109326482, 117569472)
+[board_modifier.py:96]: Getting D8 footprint position: (109326482, 117569472)
+[board_modifier.py:96]: Getting MX9 footprint position: (161606151, 127711100)
+[board_modifier.py:83]: Setting D9 footprint position: (169387502, 122227771)
+[board_modifier.py:96]: Getting D9 footprint position: (169387502, 122227771)
+[board_modifier.py:96]: Getting MX33 footprint position: (272424020, 178408960)
+[board_modifier.py:63]: Searching for ST33 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX8 footprint position: (101545131, 123052801)
+[board_modifier.py:63]: Searching for ST8 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX32 footprint position: (241467775, 175932464)
+[board_modifier.py:63]: Searching for ST32 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX6 footprint position: (243849023, 99732471)
+[board_modifier.py:63]: Searching for ST6 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX14 footprint position: (262899021, 121258961)
+[board_modifier.py:63]: Searching for ST14 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX11 footprint position: (205749024, 118782463)
+[board_modifier.py:63]: Searching for ST11 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX5 footprint position: (224799019, 97446464)
+[board_modifier.py:63]: Searching for ST5 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX30 footprint position: (163879399, 186043874)
+[board_modifier.py:63]: Searching for ST30 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX17 footprint position: (184698891, 141586620)
+[board_modifier.py:63]: Searching for ST17 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX27 footprint position: (243849022, 156882468)
+[board_modifier.py:63]: Searching for ST27 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX31 footprint position: (217655272, 175932460)
+[board_modifier.py:63]: Searching for ST31 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX3 footprint position: (184723731, 102314049)
+[board_modifier.py:63]: Searching for ST3 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX20 footprint position: (243849023, 137832461)
+[board_modifier.py:63]: Searching for ST20 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX10 footprint position: (184711313, 121950330)
+[board_modifier.py:63]: Searching for ST10 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX28 footprint position: (262899024, 159358966)
+[board_modifier.py:63]: Searching for ST28 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX13 footprint position: (243849020, 118782464)
+[board_modifier.py:63]: Searching for ST13 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX22 footprint position: (124625459, 156564608)
+[board_modifier.py:63]: Searching for ST22 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX21 footprint position: (262899024, 140308964)
+[board_modifier.py:63]: Searching for ST21 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX15 footprint position: (120016847, 138080478)
+[board_modifier.py:63]: Searching for ST15 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX29 footprint position: (119979579, 196989342)
+[board_modifier.py:63]: Searching for ST29 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX26 footprint position: (224799019, 154596462)
+[board_modifier.py:63]: Searching for ST26 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX12 footprint position: (224799023, 116496464)
+[board_modifier.py:63]: Searching for ST12 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX25 footprint position: (205749020, 156882464)
+[board_modifier.py:63]: Searching for ST25 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX1 footprint position: (147755469, 111531268)
+[board_modifier.py:63]: Searching for ST1 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX19 footprint position: (224799024, 135546465)
+[board_modifier.py:63]: Searching for ST19 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX4 footprint position: (205749020, 99732457)
+[board_modifier.py:63]: Searching for ST4 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX2 footprint position: (166239601, 106922660)
+[board_modifier.py:63]: Searching for ST2 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX24 footprint position: (184686468, 161222904)
+[board_modifier.py:63]: Searching for ST24 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX34 footprint position: (281949020, 159358964)
+[board_modifier.py:63]: Searching for ST34 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX23 footprint position: (156960271, 168135825)
+[board_modifier.py:63]: Searching for ST23 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX16 footprint position: (159283211, 147923461)
+[board_modifier.py:63]: Searching for ST16 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX7 footprint position: (262899021, 102208966)
+[board_modifier.py:63]: Searching for ST7 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX18 footprint position: (205749026, 137832462)
+[board_modifier.py:63]: Searching for ST18 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+[board_modifier.py:96]: Getting MX9 footprint position: (161606151, 127711100)
+[board_modifier.py:63]: Searching for ST9 footprint in /Users/win/Projects/winkeebs/win-split/pcb/left/Win-split-left.kicad_pcb
+[board_modifier.py:66]: Footprint not found
+>>>>>>> dontknow

@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -8,18 +8,18 @@
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "images": 0.25,
+      "images": 0.6,
       "pads": 1.0,
-      "tracks": 0.75,
-      "vias": 0.5899999737739563,
-      "zones": 0.47999998927116394
+      "tracks": 1.0,
+      "vias": 1.0,
+      "zones": 0.6
     },
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -34,6 +34,7 @@
       3,
       4,
       5,
+      8,
       9,
       10,
       11,
@@ -48,6 +49,7 @@
       21,
       22,
       23,
+      24,
       25,
       26,
       27,
@@ -59,7 +61,6 @@
       34,
       35,
       36,
-      37,
       39,
       40
     ],
@@ -67,7 +68,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "Win-split-left.kicad_prl",
+    "filename": "diode.kicad_prl",
     "version": 3
   },
   "project": {
