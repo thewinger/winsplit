@@ -106,11 +106,7 @@
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-<<<<<<< HEAD
-        "via_dangling": "ignore",
-=======
         "via_dangling": "error",
->>>>>>> dontknow
         "zones_intersect": "error"
       },
       "rules": {
@@ -122,11 +118,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-<<<<<<< HEAD
-        "min_resolved_spokes": 2,
-=======
         "min_resolved_spokes": 1,
->>>>>>> dontknow
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
@@ -144,10 +136,10 @@
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 5,
           "td_on_pad_in_zone": false,
-          "td_onpadsmd": false,
-          "td_onroundshapesonly": false,
+          "td_onpadsmd": true,
+          "td_onroundshapesonly": true,
           "td_ontrackend": true,
-          "td_onviapad": false
+          "td_onviapad": true
         }
       ],
       "teardrop_parameters": [
