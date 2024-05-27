@@ -21,7 +21,8 @@ To be bought separately:
 - 2x 128x32 [OLED panels](https://es.aliexpress.com/item/1005005973981064.html?spm=a2g0o.order_list.order_list_main.167.376d194dW3x576&gatewayAdapt=glo2esp).
 - 73x [Kailh hotswap sockets](https://es.aliexpress.com/item/1005004290562374.html?spm=a2g0o.order_list.order_list_main.178.376d194dW3x576&gatewayAdapt=glo2esp).
 - 73x [SK6812MINI-E leds](https://es.aliexpress.com/item/1005004908622116.html?spm=a2g0o.order_list.order_list_main.147.376d194dW3x576&gatewayAdapt=glo2esp).
-- 4x 2u Stabilizers
+- 4x 2u Stabilizers.
+- 16x M2 6mm screws.
 
 Diodes, capacitors, resistors and other small parts are to be soldered directly by JLCPCB. References in KiCad files.
 
