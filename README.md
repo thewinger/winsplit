@@ -2,7 +2,7 @@
 
 Inspired by the Boardrun Bizarre and Red herring. I wanted to be able to use a normal keyset, so no full ortho, but split.
 
-![Keyboard](resources/winsplit.webp)
+![Keyboard](Resources/winsplit.webp)
 
 ## Disclaimer
 
