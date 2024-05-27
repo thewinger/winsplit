@@ -11,11 +11,11 @@ I'm not responsible for any damage caused by using this keyboard or any producti
 
 ## TODO
 
-[] Rotate 180º right-side OLED connector. Right now is not usable.
-[] Rotary encoder.
-As of now, it either works as a button when a normal switch is installed or as an encoder without button when the HS Skyloong encoder is installed.
-[] Make screw holes in PCB 4mm instead of 2.2mm
-So they are passthrougth and bottom plate can be directly screwed to top plate, like lily58 or Corne keyboards.
+- [ ] Rotate 180º right-side OLED connector. Right now is not usable.
+- [ ] Rotary encoder.
+      As of now, it either works as a button when a normal switch is installed or as an encoder without button when the HS Skyloong encoder is installed.
+- [ ] Make screw holes in PCB 4mm instead of 2.2mm
+      So they are passthrougth and bottom plate can be directly screwed to top plate, like lily58 or Corne keyboards.
 
 ## Notes
 
